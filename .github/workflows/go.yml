@@ -19,10 +19,10 @@ jobs:
         go-version: 1.15
 
     - name: Build
-      run: go build -v ./...
+      run: mkdir build && cd build && go build -v ..
 
     - name: upload
       uses: actions/upload-artifact@v1
       with:
         name: artifacts
-        path: .
+        path: build
