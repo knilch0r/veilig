@@ -1,5 +1,7 @@
 # veilig
 
+![Go CI](https://github.com/knilch0r/veilig/workflows/Go/badge.svg)
+
 Toy tls certificate viewer that I built because openssl s_client confuses me
 
 Source available at: https://github.com/noqqe/veilig/
